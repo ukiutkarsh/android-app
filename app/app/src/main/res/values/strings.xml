@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">New Tabs</string>
+    <string name="tab_text_1">Study Plan</string>
+    <string name="tab_text_2">Assignments</string>
+    <string name="tab_text_3">Exams</string>
+    <string name="tab_text_4">Lectures</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="insert">Insert</string>
+    <string name="text_header">Insert Data</string>
+</resources>

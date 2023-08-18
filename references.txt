@@ -1,0 +1,35 @@
+https://developer.android.com/training/data-storage/sqlite
+https://www.javatpoint.com/java-string-to-date
+https://stackoverflow.com/questions/11219361/select-distinct-value-in-android-sqlite
+https://stackoverflow.com/questions/36772489/convert-date-string-into-epoch-in-java
+https://www.youtube.com/watch?v=xs5406vApTo
+https://github.com/SundeepK/CompactCalendarView
+https://stackoverflow.com/questions/6819604/comparison-of-two-strings-doesnt-work-in-android
+https://www.youtube.com/watch?v=VD3YItr9nMg
+https://developer.android.com/guide/topics/ui/layout/relative
+https://stackoverflow.com/questions/15836797/android-how-to-convert-int-to-string
+https://gr8pra.wixsite.com/website-1/post/insert-delete-update-and-view-data-in-sqlite-database-android-studio
+https://www.youtube.com/watch?v=9t8VVWebRFM
+https://stackoverflow.com/questions/5891480/how-to-make-a-button-align-to-the-right-in-a-layout
+https://developer.android.com/jetpack/androidx/releases/recyclerview
+https://medium.com/swlh/create-recyclerview-in-android-fragment-c0f0b151125f
+https://developer.android.com/guide/fragments
+https://github.com/mitchtabian/Recyclerview/tree/master/RecyclerView
+https://developer.android.com/training/search/search
+https://stackoverflow.com/questions/40101566/context-for-recyclerview-adapter
+https://www.youtube.com/watch?v=Vyqz_-sJGFk
+https://stackoverflow.com/questions/37428441/too-many-characters-in-character-literal-trying-to-check-if-my-value-is-not-wi
+https://developer.android.com/training/basics/firstapp/starting-activity
+https://developer.android.com/codelabs/android-training-create-an-activity?index=..%2F..%2Fandroid-training#2
+https://www.youtube.com/watch?v=jd59q67VNVQ
+https://stackoverflow.com/questions/32523188/coordinatorlayout-appbarlayout-navigationdrawer
+
+Some General Instructions for using the App :- 
+1. While creating new events, Event Type accepts only 4 entries :-
+a) Study Plan
+b) Exams
+c) Lectures
+d) Assignments
+2. The date to be entered must be of the format dd.mm.yyyy
+Eg. 08.12.2021 not 8.12.2021 or 08-12-2021
+3. For deleting an event, just enter the name of the event to be deleted

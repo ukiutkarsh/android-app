@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.12447916666666667" />
+        <entry key="app/src/main/res/layout/activity_insertdata.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/assignments_list.xml" value="0.13134057971014493" />
+        <entry key="app/src/main/res/layout/calendar.xml" value="0.25532174820046805" />
+        <entry key="app/src/main/res/layout/delete_data.xml" value="0.2924705938555216" />
+        <entry key="app/src/main/res/layout/exams_list.xml" value="0.13134057971014493" />
+        <entry key="app/src/main/res/layout/fragment1_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment2_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment3_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment4_layout.xml" value="0.109375" />
+        <entry key="app/src/main/res/layout/fragment_main.xml" value="0.12952898550724637" />
+        <entry key="app/src/main/res/layout/lectures_list.xml" value="0.13134057971014493" />
+        <entry key="app/src/main/res/layout/sidemenu_activity.xml" value="0.12952898550724637" />
+        <entry key="app/src/main/res/layout/studyplan_list.xml" value="0.23862361702036297" />
+        <entry key="app/src/main/res/menu/navigation.xml" value="0.16354166666666667" />
+        <entry key="app/src/main/res/menu/navigation2.xml" value="0.109375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

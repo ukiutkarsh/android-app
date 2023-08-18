@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_drawer_layout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calendar"
+    tools:ignore="HardcodedText">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/Theme.NewTabs.AppBarOverlay">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:id="@+id/main_toolbar2"
+                />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.github.sundeepk.compactcalendarview.CompactCalendarView
+                android:layout_marginTop="140dp"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/calendarView"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="December- 2021"
+                android:textSize="40sp"
+                android:layout_marginTop="60dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/MonthTitle"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="410dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="20sp"
+                android:id="@+id/TitleDate" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Study Plans"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="460dp"
+                android:textSize="20sp"
+                android:id="@+id/No_of_studyplans" />
+
+            <TextView
+                android:id="@+id/No_of_studyplan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/No_of_studyplans"
+                android:layout_marginTop="460dp"
+                android:layout_marginLeft="150dp"
+                android:text="0"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/No_of_studyplans"
+                android:text="Assignments"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:id="@+id/No_of_assignments" />
+
+            <TextView
+                android:id="@+id/No_of_assignment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/No_of_assignments"
+                android:layout_marginTop="510dp"
+                android:layout_marginLeft="137dp"
+                android:text="0"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Exams"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/No_of_assignments"
+                android:textSize="20sp"
+                android:id="@+id/No_of_exams" />
+
+            <TextView
+                android:id="@+id/No_of_exam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/No_of_exams"
+                android:layout_marginTop="555dp"
+                android:layout_marginLeft="195dp"
+                android:text="0"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/No_of_exams"
+                android:text="Lectures"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:id="@+id/No_of_lectures" />
+
+            <TextView
+                android:id="@+id/No_of_lecture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/No_of_lectures"
+                android:layout_marginTop="600dp"
+                android:layout_marginLeft="176dp"
+                android:text="0"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:id="@+id/nav_view2"
+        app:menu="@menu/navigation2" />
+
+</androidx.drawerlayout.widget.DrawerLayout>
